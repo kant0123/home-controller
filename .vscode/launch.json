@@ -21,7 +21,7 @@
             "cwd": "${fileDirname}",
             "port": 9898,
             "pathMappings": {
-                "C:\\git\\php\\intercom-controller": "${workspaceRoot}"
+                "C:\\git\\php\\home-controller": "${workspaceRoot}"
             },
             "runtimeExecutable": "C:\\xampp\\php\\php.exe"
         }

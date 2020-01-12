@@ -1,9 +1,8 @@
 <?php
 include dirname(__FILE__) .'\properties\HttpGet.php';
 include dirname(__FILE__) .'\properties\Password.php';
-include dirname(__FILE__) .'\properties\Action.php';
 include dirname(__FILE__) .'\utility\Debug.php';
-include dirname(__FILE__) .'\Intercom.php';
+include dirname(__FILE__) .'\devices\Intercom.php';
 
 // ログ表示フラグ
 $isDebug = true;
@@ -18,5 +17,4 @@ if(Password::KEY === htmlspecialchars($challengeKey)){
     Debug::log("失敗",$isDebug);
     exit;
 }
-
 ?>
